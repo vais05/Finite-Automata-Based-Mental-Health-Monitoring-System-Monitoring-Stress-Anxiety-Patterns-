@@ -26,13 +26,17 @@ The system uses a dataset containing mental health-related statements labeled wi
 
 ## Repository Structure
 
-├── src/ │ ├── dfa_implementation.py # DFA model implementation │ ├── pda_implementation.py # PDA model implementation │ ├── utils.py # Helper functions for data preprocessing and visualization ├── data/ │ ├── mental_health_dataset.csv # Dataset used for training and evaluation ├── results/ │ ├── dfa_transition_diagram.png # DFA transition diagram │ 
-├── pda_transition_diagram.png # PDA transition diagram │ ├── confusion_matrix.png # Confusion matrix visualization ├── README.md # Project documentation ├── requirements.txt # Python dependencies
+├── src/│
+├── dfa_implementation.py # DFA model implementation │ ├── pda_implementation.py # PDA model implementation │ ├── utils.py # Helper functions for data preprocessing and visualization 
+├── data/ 
+│ ├── mental_health_dataset.csv # Dataset used for training and evaluation 
+├── results/ │ ├── dfa_transition_diagram.png # DFA transition diagram │ 
+├── pda_transition_diagram.png # PDA transition diagram │ ├── confusion_matrix.png # Confusion matrix visualization
+├── README.md # Project documentation 
 
 
 ## Installation
 1. Clone the repository:
-   ```bash
-https://github.com/vais05/Finite-Automata-Based-Mental-Health-Monitoring-System-Monitoring-Stress-Anxiety-Patterns-
+   https://github.com/vais05/Finite-Automata-Based-Mental-Health-Monitoring-System-Monitoring-Stress-Anxiety-Patterns-
 
 
